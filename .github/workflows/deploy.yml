@@ -1,4 +1,4 @@
-name: Deploy Resume
+name: Deploy Profile
 
 on: 
   push:
