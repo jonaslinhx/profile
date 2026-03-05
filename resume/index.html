@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonas Lim Hong Xiang - Resume</title>
+    <style>
+      :root {
+        --ink: #1d1d1f;
+        --muted: #5a5f66;
+        --line: #dfe3e8;
+        --accent: #0f4c81;
+        --paper: #ffffff;
+        --bg: #f3f5f7;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 24px;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.35;
+      }
+
+      .page {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto;
+        background: var(--paper);
+        padding: 14mm;
+        box-shadow: 0 16px 40px rgba(15, 20, 26, 0.14);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 28px;
+        line-height: 1.1;
+        letter-spacing: 0.2px;
+      }
+
+      .subline {
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .links {
+        margin-top: 4px;
+        font-size: 13px;
+      }
+
+      .links a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .contact-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+      }
+
+      .contact-link .icon {
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        color: currentColor;
+      }
+
+      .links a:hover {
+        text-decoration: underline;
+      }
+
+      hr {
+        border: 0;
+        border-top: 1px solid var(--line);
+        margin: 14px 0 12px;
+      }
+
+      section {
+        margin-bottom: 12px;
+      }
+
+      .section-break {
+        margin-top: 16px;
+        padding-top: 10px;
+        border-top: 1px solid var(--line);
+      }
+
+      h2 {
+        margin: 0 0 8px;
+        color: var(--accent);
+        font-size: 12px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+      }
+
+      .entry {
+        margin-bottom: 10px;
+      }
+
+      .entry-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: baseline;
+      }
+
+      .role {
+        font-weight: 700;
+        font-size: 14px;
+      }
+
+      .org {
+        color: var(--muted);
+        font-weight: 500;
+        font-size: 13px;
+      }
+
+      .org a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .org a:hover {
+        text-decoration: underline;
+      }
+
+      .date {
+        font-size: 12px;
+        color: var(--muted);
+        white-space: nowrap;
+      }
+
+      ul {
+        margin: 6px 0 0;
+        padding-left: 18px;
+      }
+
+      li {
+        margin: 2px 0;
+        font-size: 12.5px;
+      }
+
+      .meta {
+        font-size: 12.5px;
+        color: var(--muted);
+      }
+
+      .skills-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px 14px;
+      }
+
+      .skill-item {
+        font-size: 12.5px;
+      }
+
+      .skill-item strong {
+        font-weight: 700;
+      }
+
+      .project {
+        margin-bottom: 8px;
+        font-size: 12.5px;
+      }
+
+      .project strong {
+        font-size: 13px;
+      }
+
+      .footer-links {
+        margin-top: 8px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      .footer-links nav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .footer-label {
+        font-weight: 600;
+        color: var(--ink);
+      }
+
+      .footer-links .contact-link {
+        color: var(--muted);
+      }
+
+      .certifications .role {
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      @page {
+        size: A4;
+        margin: 12mm;
+      }
+
+      @media print {
+        body {
+          background: #fff;
+          padding: 0;
+        }
+
+        .page {
+          width: auto;
+          min-height: auto;
+          margin: 0;
+          padding: 0;
+          box-shadow: none;
+        }
+
+        section,
+        .entry {
+          break-inside: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <h1>Jonas Lim Hong Xiang</h1>
+        <div class="subline">Singapore | +65 9663 2152 | Sydney, Australia | +61 0439 716 134</div>
+        <div class="links">
+          <a class="contact-link" href="mailto:jonaslimhx@gmail.com">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Zm0 1 8.1 4.6a2 2 0 0 0 1.8 0L21 8"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            jonaslimhx@gmail.com
+          </a>
+          |
+          <a class="contact-link" href="https://linkedin.com/in/jonaslimhx">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <rect
+                x="3.5"
+                y="3.5"
+                width="17"
+                height="17"
+                rx="2.5"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              />
+              <circle cx="8" cy="9" r="1.2" fill="currentColor" />
+              <path
+                d="M6.9 11.3h2.2v6.1H6.9zM11.1 11.3h2.1v.9h.1c.3-.6 1-1.1 2-1.1 2.1 0 2.5 1.4 2.5 3.2v3.1h-2.2v-2.8c0-.7 0-1.5-.9-1.5s-1 .7-1 1.5v2.8h-2.2v-6.1z"
+                fill="currentColor"
+              />
+            </svg>
+            LinkedIn
+          </a>
+          |
+          <a class="contact-link" href="https://github.com/jonaslinhx">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M12 .5C5.65.5.5 5.7.5 12.1c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2.3c-3.2.7-3.9-1.4-3.9-1.4-.5-1.4-1.3-1.8-1.3-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.7-1.6-2.5-.3-5.2-1.3-5.2-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.5.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6a11.6 11.6 0 0 0 7.9-10.9C23.5 5.7 18.3.5 12 .5Z"/>
+            </svg>
+            GitHub
+          </a>
+          |
+          <a class="contact-link" href="https://jonaslinhx.github.io/profile">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm0 2c1.9 0 3.6.7 5 1.8h-1.6c-1.4 0-2.6 1.2-2.6 2.6v.6h-1.6a2.4 2.4 0 0 0-2.4 2.4V13h-1V9.9c0-.8.4-1.6 1.1-2l1.2-.8C9 6.8 8.3 6 7.3 6h-1A8 8 0 0 1 12 4Zm0 16a8 8 0 0 1-7.2-4.5h3.6v1.4c0 .9.7 1.6 1.6 1.6h1.6v1.5h.4Zm2-2.5h-.4v-1.4a2.1 2.1 0 0 0-2.1-2.1h-.7v-1.6h2.3a1.6 1.6 0 0 0 1.6-1.6v-.6c0-.3.3-.6.6-.6h3a8 8 0 0 1-4.3 7.9Z"/>
+            </svg>
+            Blog
+          </a>
+        </div>
+      </header>
+
+      <hr />
+
+      <section>
+        <h2>Education & Awards</h2>
+        <div class="entry">
+          <div class="entry-head">
+            <div>
+              <div class="role">Master of Computer Science (Data Science & AI)</div>
+              <div class="org">University of Sydney, Australia</div>
+            </div>
+            <div class="date">Aug 2024 - Jun 2026</div>
+          </div>
+          <div class="meta">Distinction</div>
+          <div class="meta">Singapore IMDA SG Digital Scholar (Infocomm Media Development Authority)</div>
+          <ul>
+            <li>Capstone Project: AI-Powered Tour Guide using Unitree Go2 quadruped robot.</li>
+            <li>ELEC5514 IoT Wireless Sensing & Network: Built real-time chat on STM32 MCU and LoRa transceiver.</li>
+            <li>COMP5216 Mobile Computing: Built a food wastage app with TypeScript and React Native.</li>
+            <li>COMP5046 Natural Language Processing: Built encoder-decoder models and explored LLM prompting.</li>
+            <li>COMP5427 Usability Engineering: Analyzed, designed, and evaluated an e-book.</li>
+            <li>COMP5425 Multimedia Retrieval: Built a RAG-based chatbot.</li>
+            <li>COMP5426 Parallel & Distributed Programming: Built C programs with pthreads, OpenMP, OpenMPI, and CUDA.</li>
+            <li>COMP5318 Machine Learning: Implemented Vision Transformer (ViT) from scratch for age prediction.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <div>
+              <div class="role">Bachelor of Engineering (Aerospace)</div>
+              <div class="org">Nanyang Technological University, Singapore</div>
+            </div>
+            <div class="date">Aug 2015 - May 2019</div>
+          </div>
+          <div class="meta">First Class Honors, Highest Distinction</div>
+        </div>
+      </section>
+
+      <section class="section-break">
+        <h2>Professional Experience</h2>
+
+        <div class="entry">
+          <div class="entry-head">
+            <div>
+              <div class="role">Co-Founder &amp; Software Architect</div>
+              <div class="org">NockHub, Singapore | <a href="https://www.nockhub.com">nockhub.com</a></div>
+            </div>
+            <div class="date">May 2024 - Present</div>
+          </div>
+          <ul>
+            <li>Built NockHub from scratch, owning delivery from discovery to production launch.</li>
+            <li>Gathered operator requirements and turned pain points into roadmap features.</li>
+            <li>Designed Figma prototypes and converted workflows into production system architecture.</li>
+            <li>Architected a fully serverless backend on AWS (Python, Terraform) with 40+ schemas and 30+ production APIs.</li>
+            <li>Shipped 5 cross-platform apps (Flutter) and led 3 engineers on delivery standards.</li>
+            <li>Scaled adoption to 4 ranges, 7,000+ users, and 4,000+ bookings per month.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <div>
+              <div class="role">Senior Machine Learning Engineer</div>
+              <div class="org">Carro, Singapore</div>
+            </div>
+            <div class="date">Jun 2022 - Jul 2024</div>
+          </div>
+          <ul>
+            <li>Delivered ML systems across predictive pricing, vehicle damage detection, and engine acoustics.</li>
+            <li>Built scalable ML microservices on GPU clusters serving 12,000+ requests per day.</li>
+            <li>Replaced Mask R-CNN with YOLOv5 in production; reduced inference time from 500ms to 50ms.</li>
+            <li>Built data prep pipelines, feature store, and metadata store; improved training data quality by 50%.</li>
+            <li>Partnered with product, operations, and data teams across Singapore, Malaysia, Indonesia, and Taiwan.</li>
+            <li>Optimized AWS networking, databases, and training servers; saved USD 120k in 2023.</li>
+            <li>Replaced monolithic crawler with distributed architecture; reduced processing from 7 days to 9 hours.</li>
+            <li>Reworked team ML infrastructure and workflows to save 75 man-hours per month per engineer.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <div>
+              <div class="role">Data Scientist</div>
+              <div class="org">Micron Technology, Singapore</div>
+            </div>
+            <div class="date">Jun 2019 - May 2022</div>
+          </div>
+          <ul>
+            <li>Built a defect classification model that improved inspection tool capacity by 10%.</li>
+            <li>Optimized SQL in model data pipelines and reduced query time by 50%.</li>
+            <li>Built and deployed a predictive yield model to on-premises servers, contributing to USD 11M savings.</li>
+            <li>Delivered end-to-end ML solutions from problem framing to production deployment.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Technical Expertise</h2>
+        <div class="skills-grid">
+          <div class="skill-item"><strong>Languages:</strong> Python, SQL, TypeScript, Dart, C, Bash</div>
+          <div class="skill-item"><strong>ML/AI:</strong> PyTorch, TensorFlow</div>
+          <div class="skill-item"><strong>Data Engineering:</strong> PySpark</div>
+          <div class="skill-item"><strong>Backend & APIs:</strong> FastAPI, Docker</div>
+          <div class="skill-item"><strong>Robotics & Middleware:</strong> ROS 2</div>
+          <div class="skill-item"><strong>Cloud & Infrastructure:</strong> AWS, GCP, Terraform, Firebase</div>
+          <div class="skill-item"><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Redis, DynamoDB, DocumentDB, RDS</div>
+          <div class="skill-item"><strong>Frontend / Mobile:</strong> Flutter, React Native</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Hackathons</h2>
+        <p class="project">
+          2025 Global Health Systems Hackathon Hub, "Building High-Value Health Systems: Leveraging AI". Team I
+          Know You Know won 2nd place in Sydney and placed Top 20 globally.
+        </p>
+      </section>
+
+      <section>
+        <h2>GitHub Projects</h2>
+        <p class="project">
+          <strong>pyspark_project</strong> (Data Engineering): PySpark application that aggregates data and publishes
+          to Kafka topics for downstream services.
+        </p>
+        <p class="project">
+          <strong>producer-consumer-ml-system</strong> (MLOps): Asynchronous instance-segmentation microservice
+          implemented with Terraform.
+        </p>
+      </section>
+
+      <section class="certifications">
+        <h2>Certifications</h2>
+        <div class="entry">
+          <div class="entry-head">
+            <div class="role">AWS Certified Solutions Architect - Professional</div>
+            <div class="date">Jan 2024</div>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-head">
+            <div class="role">Apache Spark 3, Udemy</div>
+            <div class="date">Dec 2023</div>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-head">
+            <div class="role">AWS Certified Advanced Networking - Specialty</div>
+            <div class="date">Jul 2023</div>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-head">
+            <div class="role">AWS Certified Solutions Architect - Associate</div>
+            <div class="date">Aug 2022</div>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-head">
+            <div class="role">Terraform for AWS, Udemy</div>
+            <div class="date">Jun 2022</div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer-links">
+        <nav aria-label="Online profiles">
+          <span class="footer-label">Profiles:</span>
+          <a class="contact-link" href="https://linkedin.com/in/jonaslimhx">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <rect
+                x="3.5"
+                y="3.5"
+                width="17"
+                height="17"
+                rx="2.5"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              />
+              <circle cx="8" cy="9" r="1.2" fill="currentColor" />
+              <path
+                d="M6.9 11.3h2.2v6.1H6.9zM11.1 11.3h2.1v.9h.1c.3-.6 1-1.1 2-1.1 2.1 0 2.5 1.4 2.5 3.2v3.1h-2.2v-2.8c0-.7 0-1.5-.9-1.5s-1 .7-1 1.5v2.8h-2.2v-6.1z"
+                fill="currentColor"
+              />
+            </svg>
+            LinkedIn
+          </a>
+          <span>|</span>
+          <a class="contact-link" href="https://github.com/jonaslinhx">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M12 .5C5.65.5.5 5.7.5 12.1c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2.3c-3.2.7-3.9-1.4-3.9-1.4-.5-1.4-1.3-1.8-1.3-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.7-1.6-2.5-.3-5.2-1.3-5.2-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.5.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6a11.6 11.6 0 0 0 7.9-10.9C23.5 5.7 18.3.5 12 .5Z"/>
+            </svg>
+            GitHub
+          </a>
+          <span>|</span>
+          <a class="contact-link" href="https://jonaslinhx.github.io/profile">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm0 2c1.9 0 3.6.7 5 1.8h-1.6c-1.4 0-2.6 1.2-2.6 2.6v.6h-1.6a2.4 2.4 0 0 0-2.4 2.4V13h-1V9.9c0-.8.4-1.6 1.1-2l1.2-.8C9 6.8 8.3 6 7.3 6h-1A8 8 0 0 1 12 4Zm0 16a8 8 0 0 1-7.2-4.5h3.6v1.4c0 .9.7 1.6 1.6 1.6h1.6v1.5h.4Zm2-2.5h-.4v-1.4a2.1 2.1 0 0 0-2.1-2.1h-.7v-1.6h2.3a1.6 1.6 0 0 0 1.6-1.6v-.6c0-.3.3-.6.6-.6h3a8 8 0 0 1-4.3 7.9Z"/>
+            </svg>
+            Blog
+          </a>
+        </nav>
+      </footer>
+    </main>
+  </body>
+</html>
