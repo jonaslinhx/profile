@@ -1,12 +1,1 @@
-:root {
-  --bg: #fafaf8;
-  --surface: #ffffff;
-  --text: #1f2328;
-  --muted: #5f6670;
-  --line: #e6e8eb;
-  --accent: #2b6cb0;
-  --accent-soft: #e9f2ff;
-  --radius: 10px;
-  --shadow: 0 6px 20px rgba(17, 24, 39, 0.04);
-  --max-width: 1040px;
-}
+/* Design tokens have moved to theme.css */

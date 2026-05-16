@@ -1,0 +1,14 @@
+{
+  "versions": [
+    {
+      "id": "2026-05-17-general",
+      "file": "2026-05-17-general.html",
+      "label": "General / baseline",
+      "target": "General applications",
+      "date": "2026-05-17",
+      "status": "active",
+      "notes": "Baseline resume. Source for all tailored versions.",
+      "applications": []
+    }
+  ]
+}

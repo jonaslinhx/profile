@@ -1,0 +1,80 @@
+/* ============================================================
+   DESIGN SYSTEM — theme.css
+   Single source of truth for all design tokens.
+   Light mode default; dark mode via [data-theme="dark"] on <html>.
+   ============================================================ */
+
+:root {
+  /* --- Colors: light --- */
+  --bg:            #f7f7f5;
+  --surface:       #ffffff;
+  --surface-2:     #f0f0ee;
+  --surface-alpha: rgba(255, 255, 255, 0.92);
+  --text:          #111111;
+  --muted:         #666666;
+  --border:        #e0e0de;
+  --border-strong: #c8c8c5;
+  --accent:        #2563eb;
+  --accent-soft:   #eff5ff;
+  color-scheme: light;
+
+  /* --- Typography --- */
+  --font-sans:    'IBM Plex Sans', system-ui, sans-serif;
+  --font-heading: 'Space Grotesk', system-ui, sans-serif;
+  --font-mono:    'IBM Plex Mono', ui-monospace, monospace;
+  --font-serif:   'Source Serif 4', Georgia, serif;
+
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.25rem;
+  --text-2xl:  1.5rem;
+  --text-3xl:  clamp(1.75rem, 4vw, 2.25rem);
+
+  --leading-tight:   1.25;
+  --leading-normal:  1.5;
+  --leading-relaxed: 1.7;
+
+  --tracking-tight: -0.02em;
+  --tracking-wide:   0.08em;
+
+  /* --- Spacing --- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* --- Layout --- */
+  --max-width: 1040px;
+
+  /* --- Borders & radius --- */
+  --radius-sm: 4px;
+  --radius:    8px;
+  --radius-lg: 12px;
+
+  /* --- Shadows — bento: borders carry elevation, shadows are subtle --- */
+  --shadow:    0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.08);
+
+  /* --- Transitions --- */
+  --transition: 150ms ease;
+}
+
+[data-theme="dark"] {
+  --bg:            #111111;
+  --surface:       #1a1a1a;
+  --surface-2:     #222222;
+  --surface-alpha: rgba(17, 17, 17, 0.92);
+  --text:          #ebebeb;
+  --muted:         #888888;
+  --border:        #2a2a2a;
+  --border-strong: #3a3a3a;
+  --accent:        #4f8ef7;
+  --accent-soft:   #1a2540;
+  color-scheme: dark;
+}

@@ -8,7 +8,8 @@ body {
   padding: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: var(--font-sans);
+  transition: background-color var(--transition), color var(--transition);
 }
 
 a {
@@ -34,13 +35,13 @@ h1,
 h2,
 h3 {
   margin: 0 0 12px;
-  font-family: "Space Grotesk", sans-serif;
-  letter-spacing: -0.01em;
+  font-family: var(--font-heading);
+  letter-spacing: var(--tracking-tight);
   color: var(--text);
 }
 
 h1 {
-  font-size: clamp(1.8rem, 4vw, 2.35rem);
+  font-size: var(--text-3xl);
   margin-bottom: 8px;
 }
 

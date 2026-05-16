@@ -25,3 +25,25 @@
 
   window.SiteTabs = { activateTab };
 })();
+
+(function () {
+  const root = document.documentElement;
+  const btn = document.getElementById('theme-toggle');
+
+  if (localStorage.getItem('theme') === 'dark') {
+    root.setAttribute('data-theme', 'dark');
+  }
+
+  if (btn) {
+    btn.addEventListener('click', function () {
+      const isDark = root.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        root.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        root.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+  }
+})();
