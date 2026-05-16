@@ -1,6 +1,66 @@
 {
   "versions": [
     {
+      "id": "2026-05-17-gic-software-engineer",
+      "file": "2026-05-17-gic-software-engineer.html",
+      "label": "GIC - Software Engineer (Python)",
+      "target": "GIC",
+      "date": "2026-05-17",
+      "status": "active",
+      "notes": "Tailored for Python Software Engineer role. Profile summary centers on Python/FastAPI, SQL, business stakeholder collaboration, and production engineering. NockHub leads with FastAPI, REST APIs, code reviews, SIT/production support, and agile delivery. Carro framed as data-driven decisioning + mentoring + SQL/PySpark pipelines. Skills surface Pandas, PySpark, React, FastAPI, Agile practices explicitly. Gap: no financial domain (GIC is a sovereign wealth fund).",
+      "applications": []
+    },
+    {
+      "id": "2026-05-17-resmed-genai-engineer",
+      "file": "2026-05-17-resmed-genai-engineer.html",
+      "label": "ResMed - Generative AI Engineer",
+      "target": "ResMed",
+      "date": "2026-05-17",
+      "status": "active",
+      "notes": "Tailored for GenAI Engineer role. Profile summary leads with AWS (certified SA-Pro) + GenAI workflow automation + regulated environment. NockHub reframed toward AWS serverless GenAI workflows, stakeholder opportunity identification. Carro data flywheel framing explicit. Micron leads with regulated environment angle. Skills section surfaces AWS services, Hugging Face, React, multi-agent systems. Gap: no .NET experience.",
+      "applications": []
+    },
+    {
+      "id": "2026-05-17-fintech-senior-ml-engineer",
+      "file": "2026-05-17-fintech-senior-ml-engineer.html",
+      "label": "Fintech - Senior ML Engineer (Agentic AI / Risk)",
+      "target": "Fintech (unspecified)",
+      "date": "2026-05-17",
+      "status": "active",
+      "notes": "Tailored for senior ML engineer role focused on agentic AI systems and risk management. Profile summary leads with end-to-end production ML depth + agentic AI. Carro reframed toward decisioning models, anomaly detection, time series, feature pipelines, drift detection, and data lineage. Micron reframed as anomaly detection + predictive decisioning. Capstone expanded to highlight agentic AI: tool use, task decomposition, multi-step execution, reliability patterns.",
+      "applications": []
+    },
+    {
+      "id": "2026-05-17-rockwell-ai-engineer",
+      "file": "2026-05-17-rockwell-ai-engineer.html",
+      "label": "Rockwell Automation - AI Engineer",
+      "target": "Rockwell Automation",
+      "date": "2026-05-17",
+      "status": "active",
+      "notes": "Tailored for ISC AI Centre of Excellence AI Engineer role. Leads with GenAI/Agentic AI skills; reframes Carro toward model selection/latency/evaluation/automated pipelines; expands master's capstone to highlight LLM agent workflows and prompt orchestration; adds profile summary positioning end-to-end production AI ownership.",
+      "applications": []
+    },
+    {
+      "id": "2026-05-17-dbs-ai-governance",
+      "file": "2026-05-17-dbs-ai-governance.html",
+      "label": "DBS - AI Governance",
+      "target": "DBS Bank",
+      "date": "2026-05-17",
+      "status": "active",
+      "notes": "Tailored for Transformation & Data, Group COO AI Governance role. Adds profile summary framing ML-to-governance pivot; reframes bullets toward standards, model evaluation, data quality governance, stakeholder engagement, and responsible AI. Highlights GenAI/Agentic AI depth from master's capstone.",
+      "applications": []
+    },
+    {
+      "id": "2026-05-17-siemens-mobility",
+      "file": "2026-05-17-siemens-mobility.html",
+      "label": "Siemens Mobility - Software Technical Lead",
+      "target": "Siemens Mobility",
+      "date": "2026-05-17",
+      "status": "active",
+      "notes": "Tailored for Software Technical Lead (Rail Infrastructure / Digital Services). Emphasises technical leadership, DevOps/CI-CD, cloud architecture, data engineering, and stakeholder management.",
+      "applications": []
+    },
+    {
       "id": "2026-05-17-general",
       "file": "2026-05-17-general.html",
       "label": "General / baseline",
