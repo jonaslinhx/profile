@@ -98,27 +98,37 @@
   min-height: 180px;
 }
 
-#post-content h1,
-#post-content h2,
-#post-content h3 {
-  margin-top: 18px;
-  margin-bottom: 10px;
+#post-content h1 {
+  font-size: 1.45rem;
+  margin-top: 28px;
+  margin-bottom: 12px;
   font-family: var(--font-heading);
   color: var(--text);
+  font-weight: 700;
 }
+
+#post-content h2,
+#post-content h3 {
+  margin-top: 22px;
+  margin-bottom: 8px;
+  font-family: var(--font-heading);
+  color: var(--text);
+  font-weight: 600;
+}
+
+#post-content h2 { font-size: 1.1rem; }
+#post-content h3 { font-size: 1rem; }
 
 #post-content p,
 #post-content li {
   color: var(--text);
   font-family: var(--font-serif);
-  font-size: var(--text-lg);
-  line-height: var(--leading-relaxed);
-  text-align: justify;
-  text-justify: inter-word;
+  font-size: 1.05rem;
+  line-height: 1.75;
 }
 
 #post-content p {
-  margin-bottom: 15px;
+  margin-bottom: 1.1em;
 }
 
 #post-content code {

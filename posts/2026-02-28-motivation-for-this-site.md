@@ -3,7 +3,7 @@ title: Why This Site Exists
 date: 2026-02-28
 category: reflection
 summary: For writing, not another resume clone.
-tags: reflection, writing, motivation, masters
+tags: reflection
 ---
 
 # Why This Site Exists And Why It Is Not Another Resume Clone
