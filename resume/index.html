@@ -152,10 +152,16 @@
         color: var(--muted);
       }
 
-      .skills-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 4px 14px;
+      .summary-text {
+        margin: 0;
+        font-size: 12.5px;
+        line-height: 1.5;
+      }
+
+      .skills-list {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
       }
 
       .skill-item {
@@ -286,6 +292,11 @@
       </header>
 
       <section class="section-break">
+        <h2>Professional Summary</h2>
+        <p class="summary-text">Machine learning engineer and software architect with 7+ years delivering production AI systems — from model research to cloud infrastructure at scale. Track record of measurable impact: USD 120k cloud cost reduction, 10&times; CV inference speedup, USD 11M yield improvement, and co-founding a SaaS platform to 7,000+ users and 4,000+ monthly bookings. IMDA Digital Scholar completing an MCS; equally effective owning a model, a microservice, or an engineering team.</p>
+      </section>
+
+      <section class="section-break">
         <h2>Professional Experience</h2>
 
         <div class="entry">
@@ -297,11 +308,9 @@
             <div class="date">May 2024 - Jun 2026</div>
           </div>
           <ul>
-            <li>Architected a fully serverless backend on AWS (Python, Terraform) with 40+ schemas and 30+ production APIs.</li>
-            <li>Shipped 3 Flutter Web Apps and maintained delivery standards across a team of 3 engineers.</li>
-            <li>Gathered business requirements and translated pain points into prioritized system features.</li>
-            <li>Designed Figma prototypes and converted workflows into production system architecture.</li>
-            <li>Grew adoption to 4 ranges, 7,000+ users, and 4,000+ bookings per month.</li>
+            <li>Architected a fully serverless AWS backend (Python, Terraform) — 40+ data schemas and 30+ production APIs — scaled to 7,000+ users and 4,000+ monthly bookings across 4 partner ranges.</li>
+            <li>Shipped 3 production Flutter Web Apps end-to-end; set and maintained code quality and delivery standards across a 3-engineer team.</li>
+            <li>Drove product discovery to deployment: translated operator pain points into Figma prototypes, prioritized the roadmap, and converted requirements into production system architecture.</li>
           </ul>
         </div>
 
@@ -314,14 +323,12 @@
             <div class="date">Jun 2022 - Jul 2024</div>
           </div>
           <ul>
-            <li>Delivered ML systems across predictive pricing, vehicle damage detection, and engine acoustics.</li>
-            <li>Built scalable ML microservices on GPU clusters serving 12,000+ requests per day.</li>
-            <li>Replaced Mask R-CNN with YOLOv5 in production; reduced inference time from 500ms to 50ms.</li>
-            <li>Built data prep pipelines, feature store, and metadata store; improved training data quality by 50%.</li>
-            <li>Partnered with product, operations, and data teams across Singapore, Malaysia, Indonesia, and Taiwan.</li>
-            <li>Optimized AWS networking, databases, and training servers; saved USD 120k in 2023.</li>
-            <li>Replaced monolithic crawler with distributed architecture; reduced processing from 7 days to 9 hours.</li>
-            <li>Reworked team ML infrastructure and workflows to save 75 man-hours per month per engineer.</li>
+            <li>Engineered and deployed ML systems for predictive pricing, vehicle damage detection, and engine acoustics — serving 12,000+ requests per day on GPU clusters across 4 markets.</li>
+            <li>Replaced Mask R-CNN with YOLOv5 in production; cut inference latency 10&times; (500ms &rarr; 50ms), enabling real-time damage assessment at scale.</li>
+            <li>Optimized AWS networking, RDS, and training infrastructure; eliminated USD 120k in annual cloud spend.</li>
+            <li>Re-architected a monolithic crawler into an event-driven distributed system; reduced data processing time from 7 days to 9 hours (97% reduction).</li>
+            <li>Built feature store, data prep pipelines, and metadata store; improved training data quality by 50%.</li>
+            <li>Redesigned team ML workflows and tooling; recovered 75 engineer-hours per month across the team.</li>
           </ul>
         </div>
 
@@ -334,10 +341,10 @@
             <div class="date">Jun 2019 - May 2022</div>
           </div>
           <ul>
-            <li>Built a defect classification model that improved inspection tool capacity by 10%.</li>
-            <li>Optimized SQL in model data pipelines and reduced query time by 50%.</li>
-            <li>Built and deployed a predictive yield model to on-premises servers, contributing to USD 11M savings.</li>
-            <li>Delivered end-to-end ML solutions from problem framing to production deployment.</li>
+            <li>Developed and deployed a predictive yield model to on-premises production servers, contributing directly to USD 11M in process savings.</li>
+            <li>Built a semiconductor defect classification model deployed to inspection tooling, increasing throughput capacity by 10%.</li>
+            <li>Optimized SQL pipelines powering model training and inference; cut query execution time by 50%.</li>
+            <li>Owned full ML lifecycle across multiple initiatives — problem framing, feature engineering, model development, and production deployment.</li>
           </ul>
         </div>
       </section>
@@ -373,15 +380,15 @@
 
       <section>
         <h2>Technical Expertise</h2>
-        <div class="skills-grid">
+        <div class="skills-list">
           <div class="skill-item"><strong>Languages:</strong> Python, SQL, TypeScript, Dart, C, Bash</div>
-          <div class="skill-item"><strong>ML/AI:</strong> PyTorch, TensorFlow</div>
-          <div class="skill-item"><strong>Data Engineering:</strong> PySpark</div>
-          <div class="skill-item"><strong>Backend & APIs:</strong> FastAPI, Docker</div>
-          <div class="skill-item"><strong>Robotics & Middleware:</strong> ROS 2</div>
-          <div class="skill-item"><strong>Cloud & Infrastructure:</strong> AWS, GCP, Terraform, Firebase</div>
-          <div class="skill-item"><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Redis, DynamoDB, DocumentDB, RDS</div>
+          <div class="skill-item"><strong>ML / AI:</strong> PyTorch, TensorFlow, scikit-learn</div>
+          <div class="skill-item"><strong>Data Engineering:</strong> PySpark, feature stores, data pipelines</div>
+          <div class="skill-item"><strong>Backend &amp; APIs:</strong> FastAPI, Docker, REST, serverless (Lambda, API Gateway)</div>
+          <div class="skill-item"><strong>Cloud &amp; Infrastructure:</strong> AWS (EC2, S3, RDS, DynamoDB, SageMaker), GCP, Terraform, Firebase</div>
+          <div class="skill-item"><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Redis, DynamoDB, DocumentDB</div>
           <div class="skill-item"><strong>Frontend / Mobile:</strong> Flutter, React Native</div>
+          <div class="skill-item"><strong>Robotics &amp; Middleware:</strong> ROS 2</div>
         </div>
       </section>
 

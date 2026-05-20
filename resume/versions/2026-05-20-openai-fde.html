@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonas Lim Hong Xiang - Resume</title>
+    <style>
+      :root {
+        --ink: #1d1d1f;
+        --muted: #5a5f66;
+        --line: #dfe3e8;
+        --accent: #0f4c81;
+        --paper: #ffffff;
+        --bg: #f3f5f7;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 24px;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.35;
+      }
+
+      .page {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto;
+        background: var(--paper);
+        padding: 14mm;
+        box-shadow: 0 16px 40px rgba(15, 20, 26, 0.14);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 28px;
+        line-height: 1.1;
+        letter-spacing: 0.2px;
+      }
+
+      .subline {
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .links {
+        margin-top: 4px;
+        font-size: 13px;
+      }
+
+      .links a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .links a:hover {
+        text-decoration: underline;
+      }
+
+      .links .sep {
+        color: var(--muted);
+        margin: 0 4px;
+      }
+
+      section {
+        margin-bottom: 12px;
+      }
+
+      .section-break {
+        margin-top: 14px;
+        padding-top: 10px;
+        border-top: 1px solid var(--line);
+      }
+
+      h2 {
+        margin: 0 0 8px;
+        color: var(--accent);
+        font-size: 12px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+      }
+
+      .summary {
+        font-size: 12.5px;
+        line-height: 1.5;
+        color: var(--ink);
+        margin: 0;
+      }
+
+      .entry {
+        margin-bottom: 10px;
+      }
+
+      .entry-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: baseline;
+      }
+
+      .role {
+        font-weight: 700;
+        font-size: 14px;
+      }
+
+      .org {
+        color: var(--muted);
+        font-weight: 500;
+        font-size: 13px;
+      }
+
+      .org a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .org a:hover {
+        text-decoration: underline;
+      }
+
+      .date {
+        font-size: 12px;
+        color: var(--muted);
+        white-space: nowrap;
+      }
+
+      ul {
+        margin: 6px 0 0;
+        padding-left: 18px;
+      }
+
+      li {
+        margin: 2px 0;
+        font-size: 12.5px;
+      }
+
+      .meta {
+        font-size: 12.5px;
+        color: var(--muted);
+      }
+
+      .skill-row {
+        font-size: 12.5px;
+        margin-bottom: 3px;
+      }
+
+      .skill-row strong {
+        font-weight: 700;
+      }
+
+      .project {
+        margin-bottom: 8px;
+        font-size: 12.5px;
+      }
+
+      .footer-links {
+        margin-top: 8px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      .footer-label {
+        font-weight: 600;
+        color: var(--ink);
+      }
+
+      .certifications .role {
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      @page {
+        size: A4;
+        margin: 12mm;
+      }
+
+      @media print {
+        body {
+          background: #fff;
+          padding: 0;
+        }
+
+        .page {
+          width: auto;
+          min-height: auto;
+          margin: 0;
+          padding: 0;
+          box-shadow: none;
+        }
+
+        section,
+        .entry {
+          break-inside: avoid;
+          page-break-inside: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <h1>Jonas Lim Hong Xiang</h1>
+        <div class="subline">Singapore &nbsp;|&nbsp; +65 9663 2152</div>
+        <div class="links">
+          <a href="mailto:jonaslimhx@gmail.com">jonaslimhx@gmail.com</a>
+          <span class="sep">|</span>
+          <a href="https://linkedin.com/in/jonaslimhx">linkedin.com/in/jonaslimhx</a>
+          <span class="sep">|</span>
+          <a href="https://github.com/jonaslinhx">github.com/jonaslinhx</a>
+          <span class="sep">|</span>
+          <a href="https://jonaslinhx.github.io/profile">jonaslinhx.github.io/profile</a>
+        </div>
+      </header>
+
+      <section class="section-break">
+        <h2>Professional Summary</h2>
+        <p class="summary">
+          Engineer with 7+ years delivering production AI systems and full-stack applications across APAC markets, with experience spanning MNCs and early-stage startups. Experienced in embedding with customer teams, leading end-to-end deployments from first prototype to stable production, and scoping complex technical systems in fast-moving environments. Proven track record of driving production adoption, surfacing field feedback to sharpen model performance, and codifying delivery patterns into reusable tooling. Hands-on in Python, JavaScript, FastAPI, and Flutter. AWS Certified Solutions Architect — Professional.
+        </p>
+      </section>
+
+      <section class="section-break">
+        <h2>Professional Experience</h2>
+
+        <div class="entry">
+          <div class="entry-head">
+            <div>
+              <div class="role">Co-Founder &amp; Software Architect</div>
+              <div class="org">NockHub, Singapore | <a href="https://www.nockhub.com">nockhub.com</a></div>
+            </div>
+            <div class="date">May 2024 - May 2026</div>
+          </div>
+          <ul>
+            <li>Led customer discovery with shooting range operators to surface workflow pain points; scoped and sequenced the delivery roadmap, and removed blockers before they hit the team.</li>
+            <li>Personally coded and owned end-to-end delivery of a full-stack serverless platform on AWS (Python, Flutter) — 40+ schemas, 30+ production APIs — from first prototype to stable production across 4 customer sites.</li>
+            <li>Made deliberate trade-offs between scope, speed, and quality to protect each release; adjusted delivery plans in real time to keep a 3-engineer team on track.</li>
+            <li>Guided operators through workflow changes and adoption; grew to 7,000+ active users and 4,000+ bookings per month.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <div>
+              <div class="role">Senior Machine Learning Engineer</div>
+              <div class="org">Carro, Singapore</div>
+            </div>
+            <div class="date">Jun 2022 - Jul 2024</div>
+          </div>
+          <ul>
+            <li>Forward deployed to Malaysia and Taiwan to embed with local engineering and operations teams; led on-the-ground rollout, drove production adoption of AI-powered services, and surfaced field feedback to product and engineering teams to sharpen model performance.</li>
+            <li>Identified inference bottleneck in production damage detection; scoped and shipped YOLOv5 migration replacing Mask R-CNN, reducing latency from 500ms to 50ms end-to-end.</li>
+            <li>Built full-stack AI microservices (Python, FastAPI) on GPU clusters serving 12,000+ requests per day; designed feature store and metadata store that improved training data quality by 50%.</li>
+            <li>Codified team AI delivery practices into shared tooling and reusable pipelines; saved 75 man-hours per engineer per month and reduced deployment inconsistency across markets.</li>
+            <li>Optimized AWS networking, databases, and training infrastructure; saved USD 120k in annual operating costs.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <div>
+              <div class="role">Data Scientist</div>
+              <div class="org">Micron Technology, Singapore</div>
+            </div>
+            <div class="date">Jun 2019 - May 2022</div>
+          </div>
+          <ul>
+            <li>Embedded with semiconductor manufacturing engineers to conduct domain discovery; translated fab process expertise into feature selection criteria and project success requirements.</li>
+            <li>Designed and deployed a predictive yield model to on-premises production servers; contributed to USD 11M in operational savings.</li>
+            <li>Built a defect classification model for wafer inspection; improved inspection tool capacity by 10%.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-break">
+        <h2>Technical Skills</h2>
+        <div class="skill-row"><strong>Languages:</strong> Python, JavaScript, SQL, Dart, C, Bash</div>
+        <div class="skill-row"><strong>AI &amp; Machine Learning:</strong> Generative AI, Hugging Face, PyTorch, TensorFlow</div>
+        <div class="skill-row"><strong>Backend:</strong> FastAPI, Express.js, Docker</div>
+        <div class="skill-row"><strong>Frontend:</strong> Flutter, React</div>
+        <div class="skill-row"><strong>Cloud &amp; Infrastructure:</strong> AWS, GCP, Terraform, Firebase</div>
+        <div class="skill-row"><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Redis, DynamoDB, DocumentDB, RDS</div>
+        <div class="skill-row"><strong>Robotics &amp; Middleware:</strong> ROS 2</div>
+      </section>
+
+      <section class="section-break">
+        <h2>Education &amp; Awards</h2>
+        <div class="entry">
+          <div class="entry-head">
+            <div>
+              <div class="role">Master of Computer Science (Data Science &amp; AI)</div>
+              <div class="org">University of Sydney, Australia</div>
+            </div>
+            <div class="date">Aug 2024 - Jun 2026</div>
+          </div>
+          <div class="meta">Distinction &nbsp;|&nbsp; Singapore IMDA SG Digital Scholar (Infocomm Media Development Authority)</div>
+          <ul>
+            <li><strong>Natural Language Processing:</strong> Fine-tuned LLaMA 3.2 and trained a language model to generate SQL from natural language queries.</li>
+            <li><strong>Cybersecurity:</strong> Used Codex to automate vulnerability scanning across real-world applications, identifying exploitable weaknesses in the wild.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <div>
+              <div class="role">Bachelor of Engineering (Aerospace)</div>
+              <div class="org">Nanyang Technological University, Singapore</div>
+            </div>
+            <div class="date">Aug 2015 - May 2019</div>
+          </div>
+          <div class="meta">First Class Honors, Highest Distinction</div>
+        </div>
+      </section>
+
+      <section class="section-break certifications">
+        <h2>Certifications</h2>
+        <div class="entry">
+          <div class="entry-head">
+            <div class="role">AWS Certified Solutions Architect - Professional</div>
+            <div class="date">Jan 2024</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-break">
+        <h2>Hackathons</h2>
+        <p class="project">
+          2025 Global Health Systems Hackathon Hub, "Building High-Value Health Systems: Leveraging AI" — Team placed 2nd in Sydney and Top 20 globally.
+        </p>
+      </section>
+
+      <footer class="footer-links">
+        <span class="footer-label">Profiles:</span>
+        <span class="sep">&nbsp;</span>
+        <a href="https://linkedin.com/in/jonaslimhx">LinkedIn</a>
+        <span class="sep">&nbsp;|&nbsp;</span>
+        <a href="https://github.com/jonaslinhx">GitHub</a>
+        <span class="sep">&nbsp;|&nbsp;</span>
+        <a href="https://jonaslinhx.github.io/profile">Blog</a>
+      </footer>
+    </main>
+  </body>
+</html>

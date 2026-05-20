@@ -69,6 +69,16 @@
       "status": "active",
       "notes": "Baseline resume. Source for all tailored versions.",
       "applications": []
+    },
+    {
+      "id": "2026-05-20-openai-fde",
+      "file": "2026-05-20-openai-fde.html",
+      "label": "OpenAI - Forward Deployed Engineer",
+      "target": "OpenAI",
+      "date": "2026-05-20",
+      "status": "draft",
+      "notes": "Tailored for Forward Deployed Engineer role (Singapore). Education section replaces capstone with two LLM-relevant coursework units: NLP (LLaMA 3.2 fine-tuning, text-to-SQL) and Cybersecurity (Codex-driven vulnerability scanning). Gap areas: no visible LLM/GenAI production deployment, no external customer-facing deployment narrative — further tailoring of experience bullets recommended.",
+      "applications": []
     }
   ]
 }
